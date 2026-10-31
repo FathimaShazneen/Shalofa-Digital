@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4a1420">
+  <title>Farooq Mohammed Shafeeq &amp; Aysha Shalofa – Nikah Invitation</title>
+  <meta name="description"
+    content="Join us to celebrate the Nikah of Farooq Mohammed Shafeeq with Aysha Shalofa on Thursday, 10 December 2026 at Royal Garden Beach Resort, Ullal, Mangaluru.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Farooq Mohammed Shafeeq &amp; Aysha Shalofa – Nikah Invitation">
+  <meta property="og:description"
+    content="Thursday, 10 December 2026 · 7:00 PM at Royal Garden Beach Resort, Ullal, Mangaluru. Dinner followed by Nikah.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%234a1420%22/><text x=%2250%22 y=%2266%22 font-size=%2252%22 font-family=%22serif%22 font-weight=%22bold%22 fill=%22%23d9a94a%22 text-anchor=%22middle%22>SS</text></svg>">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Pinyon+Script&family=Raleway:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background Audio Element -->
+  <audio id="bg-audio" src="assets/audio/wedding-music.m4a" preload="metadata" loop></audio>
+
+  <!-- =======================================================================
+       1. OPENING SCREEN: ENVELOPE WITH WAX SEAL (Tap to Open)
+       ======================================================================= -->
+  <div id="envelope-screen" role="button" tabindex="0" aria-label="Wedding Invitation Envelope - Tap to Open">
+    <div class="envelope-stage">
+
+      <!-- Envelope Liner Interior -->
+      <div class="envelope-liner" aria-hidden="true"></div>
+
+      <!-- Inner Card (revealed and slides upward on open) -->
+      <div class="inner-card" aria-hidden="true">
+        <div class="inner-card-content">
+          <div class="inner-card-text">
+            <span class="inner-groom">Farooq Mohammed Shafeeq</span>
+            <span class="inner-amp">&amp;</span>
+            <span class="inner-bride">Aysha Shalofa</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Envelope Pocket (Bottom Section) -->
+      <div class="envelope-pocket" aria-hidden="true"></div>
+
+      <!-- Envelope Flap (Top Triangular Section that folds open) -->
+      <div class="envelope-flap" aria-hidden="true">
+        <div class="flap-text-wrapper">
+          <p class="flap-intro">You are cordially invited</p>
+        </div>
+      </div>
+
+      <!-- Pocket Monogram Details (Initials S S for Shafeeq & Shalofa) -->
+      <div class="pocket-details" aria-hidden="true">
+        <div class="pocket-monogram">
+          <span class="pocket-initial">S</span>
+          <span class="pocket-divider"></span>
+          <span class="pocket-initial">S</span>
+        </div>
+        <div class="pocket-line"></div>
+        <p class="pocket-date">10 · 12 · 2026</p>
+      </div>
+
+      <!-- Wax Seal Stamp with breaking halves -->
+      <div class="wax-seal" id="wax-seal" aria-hidden="true">
+        <div class="wax-seal-wrapper">
+          <div class="seal-half seal-left"></div>
+          <div class="seal-half seal-right"></div>
+          <svg class="seal-emblem" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 17.6s-4.9-3.2-6.3-6.1c-1-2 .1-4.3 2.3-4.6 1.6-.2 2.9.8 4 2.2 1.1-1.4 2.4-2.4 4-2.2 2.2.3 3.3 2.6 2.3 4.6-1.4 2.9-6.3 6.1-6.3 6.1z"
+              fill="#6d4510" opacity=".62" />
+            <path
+              d="M12 16.9s-4.9-3.2-6.3-6.1c-1-2 .1-4.3 2.3-4.6 1.6-.2 2.9.8 4 2.2 1.1-1.4 2.4-2.4 4-2.2 2.2.3 3.3 2.6 2.3 4.6-1.4 2.9-6.3 6.1-6.3 6.1z"
+              fill="#e0b878" opacity=".30" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Tap to Open Prompt -->
+      <p class="tap-to-open-prompt">Tap to Open</p>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       2. MAIN INVITATION CONTENT
+       ======================================================================= -->
+  <div id="main-invitation" class="invitation-main">
+
+    <!-- Ambient Floating Layers -->
+    <div id="petals-layer" aria-hidden="true"></div>
+    <div id="butterflies-layer" aria-hidden="true"></div>
+
+    <!-- -------------------------------------------------------------------
+         HERO SECTION (Fullscreen Initial Screen)
+         ------------------------------------------------------------------- -->
+    <section class="hero-screen" id="hero-section">
+      <div class="hero-bg-wrapper" aria-hidden="true">
+        <img src="assets/images/mughal-arch-bg.webp" alt="" class="hero-bg-img" loading="eager" decoding="async">
+      </div>
+
+      <!-- Glassmorphic Card -->
+      <div class="hero-card reveal-item is-visible">
+        <!-- Bismillah in Amiri Arabic font -->
+        <div class="bismillah-wrap">
+          <p class="bismillah-ar" dir="rtl" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+          <div class="gold-rule-small"></div>
+        </div>
+
+        <!-- Couple Names (Cinzel Decorative) -->
+        <div class="hero-names-wrap">
+          <h1 class="hero-name groom-name">Farooq Mohammed Shafeeq</h1>
+          <div class="hero-amp-wrap">
+            <span class="hero-amp-line"></span>
+            <span class="hero-amp">&amp;</span>
+            <span class="hero-amp-line"></span>
+          </div>
+          <h1 class="hero-name bride-name">Aysha Shalofa</h1>
+        </div>
+
+        <div class="gold-rule-small"></div>
+
+        <!-- Occasion Label -->
+        <span class="occasion-pill">NIKAH INVITATION</span>
+      </div>
+
+      <!-- Scroll Hint Chevron -->
+      <div class="scroll-hint-wrap" aria-hidden="true">
+        <svg class="scroll-chevron" width="22" height="14" viewBox="0 0 22 14" fill="none">
+          <path d="M1 1L11 11L21 1" stroke="#a8730f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------
+         CEREMONY CARD (Nikah Details)
+         ------------------------------------------------------------------- -->
+    <section class="ceremony-screen" id="ceremony-section">
+      <div class="ceremony-bg-wrapper" aria-hidden="true">
+        <img src="assets/images/mughal-arch-bg.webp" alt="" class="ceremony-bg-img" loading="lazy" decoding="async">
+      </div>
+
+      <div class="ceremony-content-wrap">
+        <!-- Main Framed Card -->
+        <div class="ceremony-card reveal-item">
+          <!-- Ceremony Label -->
+          <span class="ceremony-badge">NIKAH</span>
+
+          <!-- Interlocking Wedding Rings with Diamond SVG -->
+          <div class="interlocking-rings-wrap" aria-hidden="true">
+            <svg width="76" height="60" viewBox="0 0 94 74" fill="none">
+              <circle cx="36" cy="45" r="23" fill="#a8730f0b" stroke="#a8730f" stroke-width="1.4" />
+              <circle cx="36" cy="45" r="18.5" fill="none" stroke="#a8730f55" stroke-width="0.7" />
+              <circle cx="58" cy="45" r="23" fill="none" stroke="#a8730f" stroke-width="1.4" />
+              <circle cx="58" cy="45" r="18.5" fill="none" stroke="#a8730f55" stroke-width="0.7" />
+              <path d="M58 7 L63.5 15 L58 24 L52.5 15 Z" fill="#a8730f20" stroke="#a8730f" stroke-width="1.1"
+                stroke-linejoin="round" />
+              <line x1="52.5" y1="15" x2="63.5" y2="15" stroke="#a8730f99" stroke-width="0.6" />
+              <line x1="58" y1="7" x2="58" y2="24" stroke="#a8730f66" stroke-width="0.5" />
+            </svg>
+          </div>
+
+          <!-- Event Date with Shimmer -->
+          <p class="ceremony-date-shimmer">Thursday, 10 December 2026</p>
+
+          <div class="card-micro-divider"></div>
+
+          <!-- Ceremony Time -->
+          <p class="ceremony-time">7:00 PM</p>
+
+          <!-- Hijri Date -->
+          <p class="ceremony-hijri">1 Rajab 1448 AH</p>
+
+          <!-- 4-Petal Floral Divider with Lines -->
+          <div class="four-petal-divider" aria-hidden="true">
+            <div class="fp-line left"></div>
+            <svg width="14" height="14" viewBox="0 0 22 22">
+              <path d="M11 4 C13 7,14 9,11 11 C8 9,9 7,11 4Z" fill="#9aaa8e" opacity=".65" />
+              <path d="M18 11 C15 13,13 14,11 11 C13 8,15 9,18 11Z" fill="#9aaa8e" opacity=".65" />
+              <path d="M11 18 C9 15,8 13,11 11 C14 13,13 15,11 18Z" fill="#9aaa8e" opacity=".65" />
+              <path d="M4 11 C7 9,9 8,11 11 C9 14,7 13,4 11Z" fill="#9aaa8e" opacity=".65" />
+              <circle cx="11" cy="11" r="2.2" fill="#a8730f" opacity=".9" />
+            </svg>
+            <div class="fp-line right"></div>
+          </div>
+
+          <!-- Venue Overview -->
+          <div class="ceremony-venue-block">
+            <h2 class="ceremony-venue-title">Royal Garden Beach Resort</h2>
+            <p class="ceremony-venue-sub">16-91/4, Caico Beach Road, Mukkachery, Ullal, Mangaluru, Karnataka 575020,
+              India</p>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="ceremony-actions">
+            <!-- Directions Button -->
+            <a href="https://maps.app.goo.gl/JpKH8pUQWJ98SSLL7" target="_blank" rel="noopener noreferrer"
+              class="btn-pill btn-directions">
+              &#8599; Directions
+            </a>
+
+            <!-- Add to Calendar Button with dropdown -->
+            <div class="calendar-btn-container" id="calendar-container">
+              <button type="button" class="btn-pill btn-calendar" id="calendar-toggle" aria-expanded="false"
+                aria-haspopup="true">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" style="margin-right:2px;">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+                Add to Calendar &#9662;
+              </button>
+              <div class="calendar-dropdown" id="calendar-dropdown">
+                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Nikah%20Ceremony%20%E2%80%94%20Farooq%20Mohammed%20Shafeeq%20%26%20Aysha%20Shalofa&dates=20261210T133000Z/20261210T170000Z&details=Dinner%20followed%20by%20Nikah.%20Dress%20Code%3A%20Soft%20Pastel%20Colours.&location=Royal%20Garden%20Beach%20Resort%2C%2016-91%2F4%2C%20Caico%20Beach%20Road%2C%20Mukkachery%2C%20Ullal%2C%20Mangaluru%2C%20Karnataka%20575020"
+                  target="_blank" rel="noopener noreferrer" class="calendar-dropdown-item">
+                  Google Calendar
+                </a>
+                <button type="button" id="download-ics-btn" class="calendar-dropdown-item">
+                  Apple / Outlook (.ics)
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reception Note -->
+          <div class="reception-note-wrap">
+            <p class="reception-note">Dinner followed by Nikah</p>
+          </div>
+        </div>
+
+        <!-- Circular Floral Monogram Wreath Seal (S S) -->
+        <div class="monogram-wreath-seal reveal-item" aria-hidden="true">
+          <div class="wreath-svg-wrap">
+            <svg viewBox="0 0 140 140" width="140" height="140" class="wreath-svg">
+              <circle cx="70" cy="70" r="52" fill="rgba(250,248,242,.85)" />
+              <circle cx="70" cy="70" r="52" fill="none" stroke="#a8730f" stroke-width="1.2" />
+              <circle cx="70" cy="70" r="47" fill="none" stroke="#d9a94a" stroke-width="0.6" />
+              <!-- Top, Right, Left Diamonds -->
+              <path transform="translate(70, 18)" d="M0 -3.4 L2.2 0 L0 3.4 L-2.2 0 Z" fill="#a8730f" />
+              <path transform="translate(122, 70)" d="M0 -3.4 L2.2 0 L0 3.4 L-2.2 0 Z" fill="#a8730f" />
+              <path transform="translate(18, 70)" d="M0 -3.4 L2.2 0 L0 3.4 L-2.2 0 Z" fill="#a8730f" />
+              <!-- Bottom Small Circle Accent -->
+              <circle cx="70" cy="130" r="2.4" fill="#a8730f" />
+              <!-- Decorative Leaf Sprigs in Golden Hue -->
+              <path d="M70 18 A52 52 0 0 1 122 70" fill="none" stroke="#a8730f" stroke-width="0.8" />
+              <path d="M122 70 A52 52 0 0 1 70 122" fill="none" stroke="#a8730f" stroke-width="0.8" />
+              <path d="M70 18 A52 52 0 0 0 18 70" fill="none" stroke="#a8730f" stroke-width="0.8" />
+              <path d="M18 70 A52 52 0 0 0 70 122" fill="none" stroke="#a8730f" stroke-width="0.8" />
+            </svg>
+            <div class="wreath-initials-content">
+              <span class="wreath-initial">S</span>
+              <span class="wreath-amp">&amp;</span>
+              <span class="wreath-initial">S</span>
+            </div>
+          </div>
+          <p class="wreath-date">10 · 12 · 2026</p>
+        </div>
+      </div>
+
+      <div class="ceremony-bottom-fade" aria-hidden="true"></div>
+    </section>
+
+    <!-- -------------------------------------------------------------------
+         SUB-SECTIONS CONTAINER
+         ------------------------------------------------------------------- -->
+    <div class="invitation-subsections">
+
+      <!-- 1. QURANIC VERSE / BLESSING -->
+      <section class="content-section text-center reveal-item" id="verse-section">
+        <!-- Floral Divider Component -->
+        <div class="floral-divider" aria-hidden="true">
+          <div class="fd-line left"></div>
+          <svg width="20" height="20" viewBox="0 0 22 22">
+            <circle cx="11" cy="11" r="4.5" fill="#9aaa8e" opacity=".2" />
+            <path d="M11 4 C13 7,14 9,11 11 C8 9,9 7,11 4Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M18 11 C15 13,13 14,11 11 C13 8,15 9,18 11Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M11 18 C9 15,8 13,11 11 C14 13,13 15,11 18Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M4 11 C7 9,9 8,11 11 C9 14,7 13,4 11Z" fill="#9aaa8e" opacity=".6" />
+            <circle cx="11" cy="11" r="2.2" fill="#a8730f" opacity=".85" />
+          </svg>
+          <div class="fd-line right"></div>
+        </div>
+
+        <p class="section-badge-title">SACRED UNION</p>
+
+        <!-- Decorative Large Quote Mark -->
+        <p class="decorative-quote-mark" aria-hidden="true">&ldquo;</p>
+
+        <!-- Verse Text -->
+        <p class="holy-verse-text">
+          &ldquo;And We created you in pairs.&rdquo;
+        </p>
+
+        <div class="gold-rule-center"></div>
+
+        <p class="verse-citation">&mdash; SURAH AN-NABA 78:8</p>
+      </section>
+
+      <!-- 2. COUNTDOWN TIMER -->
+      <section class="content-section text-center reveal-item" id="countdown-section">
+        <div class="floral-divider" aria-hidden="true">
+          <div class="fd-line left"></div>
+          <svg width="20" height="20" viewBox="0 0 22 22">
+            <circle cx="11" cy="11" r="4.5" fill="#9aaa8e" opacity=".2" />
+            <path d="M11 4 C13 7,14 9,11 11 C8 9,9 7,11 4Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M18 11 C15 13,13 14,11 11 C13 8,15 9,18 11Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M11 18 C9 15,8 13,11 11 C14 13,13 15,11 18Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M4 11 C7 9,9 8,11 11 C9 14,7 13,4 11Z" fill="#9aaa8e" opacity=".6" />
+            <circle cx="11" cy="11" r="2.2" fill="#a8730f" opacity=".85" />
+          </svg>
+          <div class="fd-line right"></div>
+        </div>
+
+        <p class="section-badge-title">COUNTING DOWN</p>
+        <p class="section-subtitle-italic">Until the blessed union</p>
+
+        <!-- Countdown Boxes -->
+        <div class="countdown-grid">
+          <div class="countdown-card">
+            <div class="countdown-number" id="count-days">00</div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-card">
+            <div class="countdown-number" id="count-hours">00</div>
+            <div class="countdown-label">Hrs</div>
+          </div>
+          <div class="countdown-card">
+            <div class="countdown-number" id="count-mins">00</div>
+            <div class="countdown-label">Min</div>
+          </div>
+          <div class="countdown-card">
+            <div class="countdown-number" id="count-secs">00</div>
+            <div class="countdown-label">Sec</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. WITH THE BLESSINGS OF OUR FAMILIES -->
+      <section class="content-section text-center reveal-item" id="family-section">
+        <div class="floral-divider" aria-hidden="true">
+          <div class="fd-line left"></div>
+          <svg width="20" height="20" viewBox="0 0 22 22">
+            <circle cx="11" cy="11" r="4.5" fill="#9aaa8e" opacity=".2" />
+            <path d="M11 4 C13 7,14 9,11 11 C8 9,9 7,11 4Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M18 11 C15 13,13 14,11 11 C13 8,15 9,18 11Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M11 18 C9 15,8 13,11 11 C14 13,13 15,11 18Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M4 11 C7 9,9 8,11 11 C9 14,7 13,4 11Z" fill="#9aaa8e" opacity=".6" />
+            <circle cx="11" cy="11" r="2.2" fill="#a8730f" opacity=".85" />
+          </svg>
+          <div class="fd-line right"></div>
+        </div>
+
+        <p class="section-badge-title">WITH THE BLESSINGS OF OUR FAMILIES</p>
+
+        <div class="family-members-stack">
+          <!-- Groom Family -->
+          <div class="family-member-block">
+            <p class="family-member-name">FAROOQ MOHAMMED SHAFEEQ</p>
+            <p class="family-parents-text">Son of Mr. Ummer Farooq &amp; Mrs. Maimuna</p>
+          </div>
+
+          <!-- Connecting Ampersand Divider -->
+          <div class="family-ampersand-divider" aria-hidden="true">
+            <div class="fam-line left"></div>
+            <span class="fam-amp">&amp;</span>
+            <div class="fam-line right"></div>
+          </div>
+
+          <!-- Bride Family -->
+          <div class="family-member-block">
+            <p class="family-member-name">AYSHA SHALOFA</p>
+            <p class="family-parents-text">Daughter of Mr. Iliyas &amp; Mrs. Maimoona</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. VENUE & LOCATION MAP -->
+      <section class="content-section text-center reveal-item" id="venue-section">
+        <div class="floral-divider" aria-hidden="true">
+          <div class="fd-line left"></div>
+          <svg width="20" height="20" viewBox="0 0 22 22">
+            <circle cx="11" cy="11" r="4.5" fill="#9aaa8e" opacity=".2" />
+            <path d="M11 4 C13 7,14 9,11 11 C8 9,9 7,11 4Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M18 11 C15 13,13 14,11 11 C13 8,15 9,18 11Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M11 18 C9 15,8 13,11 11 C14 13,13 15,11 18Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M4 11 C7 9,9 8,11 11 C9 14,7 13,4 11Z" fill="#9aaa8e" opacity=".6" />
+            <circle cx="11" cy="11" r="2.2" fill="#a8730f" opacity=".85" />
+          </svg>
+          <div class="fd-line right"></div>
+        </div>
+
+        <p class="section-badge-title">FIND US</p>
+
+        <div class="venue-info-box">
+          <h3 class="venue-main-name">Royal Garden Beach Resort</h3>
+          <p class="venue-main-address">16-91/4, Caico Beach Road, Mukkachery, Ullal, Mangaluru, Karnataka 575020, India
+          </p>
+        </div>
+
+        <!-- Embedded Interactive Google Map Block -->
+        <div class="map-card-container">
+          <div class="map-iframe-wrapper">
+            <iframe title="Royal Garden Beach Resort Location Map"
+              src="https://maps.google.com/maps?q=The+Royal+Garden+beach+resort+Ullal+Mangaluru&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="260" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="map-action-bar">
+            <a href="https://maps.app.goo.gl/JpKH8pUQWJ98SSLL7" target="_blank" rel="noopener noreferrer"
+              class="btn-pill btn-directions">
+              &#8599; Open in Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. DRESS CODE -->
+      <section class="content-section text-center reveal-item" id="dress-code-section">
+        <div class="floral-divider" aria-hidden="true">
+          <div class="fd-line left"></div>
+          <svg width="20" height="20" viewBox="0 0 22 22">
+            <circle cx="11" cy="11" r="4.5" fill="#9aaa8e" opacity=".2" />
+            <path d="M11 4 C13 7,14 9,11 11 C8 9,9 7,11 4Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M18 11 C15 13,13 14,11 11 C13 8,15 9,18 11Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M11 18 C9 15,8 13,11 11 C14 13,13 15,11 18Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M4 11 C7 9,9 8,11 11 C9 14,7 13,4 11Z" fill="#9aaa8e" opacity=".6" />
+            <circle cx="11" cy="11" r="2.2" fill="#a8730f" opacity=".85" />
+          </svg>
+          <div class="fd-line right"></div>
+        </div>
+
+        <p class="section-badge-title">DRESS CODE</p>
+        <p class="dress-code-text">Soft Pastel Colours</p>
+
+        <!-- Pastel Color Swatches Palette -->
+
+      </section>
+
+      <!-- 6. CLOSING & COMPLIMENTS -->
+      <section class="content-section text-center reveal-item" id="closing-section">
+        <div class="floral-divider" aria-hidden="true">
+          <div class="fd-line left"></div>
+          <svg width="20" height="20" viewBox="0 0 22 22">
+            <circle cx="11" cy="11" r="4.5" fill="#9aaa8e" opacity=".2" />
+            <path d="M11 4 C13 7,14 9,11 11 C8 9,9 7,11 4Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M18 11 C15 13,13 14,11 11 C13 8,15 9,18 11Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M11 18 C9 15,8 13,11 11 C14 13,13 15,11 18Z" fill="#9aaa8e" opacity=".6" />
+            <path d="M4 11 C7 9,9 8,11 11 C9 14,7 13,4 11Z" fill="#9aaa8e" opacity=".6" />
+            <circle cx="11" cy="11" r="2.2" fill="#a8730f" opacity=".85" />
+          </svg>
+          <div class="fd-line right"></div>
+        </div>
+
+        <p class="section-badge-title">WITH BEST COMPLIMENTS</p>
+        <p class="compliments-source">From Near &amp; Dear Family &amp; Friends</p>
+
+        <!-- Monogram Couple Shimmer Text -->
+        <p class="closing-couple-names">Shafeeq &amp; Shalofa</p>
+
+        <p class="closing-quote">
+          &ldquo;Your gracious presence and heartfelt prayers will make our special day truly memorable.&rdquo;
+        </p>
+
+        <p class="closing-date-gold">Thursday, 10 December 2026</p>
+
+        <div class="gold-rule-center"></div>
+
+        <footer class="invitation-footer">
+          <p class="footer-names">Farooq Mohammed Shafeeq &amp; Aysha Shalofa</p>
+          <p class="footer-monogram-initials">S &middot; S</p>
+          <div class="footer-credit">
+            <span class="footer-credit-text">Created with</span>
+            <a href="https://www.instagram.com/shazneen_fathimaaaa?mdxt=YnJ5NnZmMzIya3ht" target="_blank"
+              rel="noopener noreferrer" class="footer-credit-link" title="Visit @shazneen_fathimaaaa on Instagram">
+              <svg class="instagram-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+              @shazneen_fathimaaaa
+            </a>
+          </div>
+        </footer>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       3. FLOATING MUSIC TOGGLE BUTTON
+       ======================================================================= -->
+  <button type="button" id="audio-toggle" class="audio-toggle-btn" aria-label="Toggle background music"
+    title="Toggle background music">
+    <!-- Playing SVG (Music Notes) -->
+    <svg class="audio-icon icon-playing" width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M9 18V5l12-2v13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+        stroke-linejoin="round" />
+      <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.8" />
+      <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.8" />
+    </svg>
+    <!-- Paused SVG (Muted Notes with Slash) -->
+    <svg class="audio-icon icon-paused" width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M9 18V5l12-2v13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+        stroke-linejoin="round" />
+      <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.8" />
+      <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.8" />
+      <line x1="3" y1="3" x2="21" y2="21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+
+</html>
