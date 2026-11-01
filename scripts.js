@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'DTSTART:20261210T133000Z', // 7:00 PM IST is 13:30 UTC
         'DTEND:20261210T170000Z',   // 10:30 PM IST is 17:00 UTC
         'SUMMARY:Nikah Ceremony — Farooq Mohammed Shafeeq & Aysha Shalofa',
-        'DESCRIPTION:Join us to celebrate the Nikah of Farooq Mohammed Shafeeq with Aysha Shalofa.\\nDinner followed by Nikah.\\nDress Code: Soft Pastel Colours.',
+        'DESCRIPTION:Join us to celebrate the Nikah of Farooq Mohammed Shafeeq with Aysha Shalofa.\\nNikah followed by Dinner.\\nDress Code: Soft Pastel Colours.',
         'LOCATION:Royal Garden Beach Resort\\, 16-91/4\\, Caico Beach Road\\, Mukkachery\\, Ullal\\, Mangaluru\\, Karnataka 575020\\, India',
         'STATUS:CONFIRMED',
         'END:VEVENT',
