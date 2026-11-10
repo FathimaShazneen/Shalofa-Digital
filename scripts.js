@@ -1,5 +1,5 @@
 /**
- * Farooq Mohammed Shafeeq & Aysha Shalofa – Nikah Invitation
+ * Shaheer Abbas & Haniya – Nikah Invitation
  * Interactive Script
  * Exact match to Invytor Mughal Arch reference architecture
  */
@@ -319,12 +319,12 @@ document.addEventListener('DOMContentLoaded', () => {
         'CALSCALE:GREGORIAN',
         'METHOD:PUBLISH',
         'BEGIN:VEVENT',
-        'UID:shafeeq-shalofa-nikah-20261210@wedding',
+        'UID:Shaheer-Haniya-nikah-20261210@wedding',
         'DTSTAMP:20261031T180000Z',
         'DTSTART:20261210T133000Z', // 7:00 PM IST is 13:30 UTC
         'DTEND:20261210T170000Z',   // 10:30 PM IST is 17:00 UTC
-        'SUMMARY:Nikah Ceremony — Farooq Mohammed Shafeeq & Aysha Shalofa',
-        'DESCRIPTION:Join us to celebrate the Nikah of Farooq Mohammed Shafeeq with Aysha Shalofa.\\nNikah followed by Dinner.\\nDress Code: Soft Pastel Colours.',
+        'SUMMARY:Nikah Ceremony — Shaheer Abbas & Haniya',
+        'DESCRIPTION:Join us to celebrate the Nikah of Shaheer Abbas with Haniya.\\nNikah followed by Dinner.\\nDress Code: Soft Pastel Colours.',
         'LOCATION:Royal Garden Beach Resort\\, 16-91/4\\, Caico Beach Road\\, Mukkachery\\, Ullal\\, Mangaluru\\, Karnataka 575020\\, India',
         'STATUS:CONFIRMED',
         'END:VEVENT',
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const url = window.URL.createObjectURL(blob);
       const downloadLink = document.createElement('a');
       downloadLink.href = url;
-      downloadLink.setAttribute('download', 'Farooq-Shafeeq-Aysha-Shalofa-Nikah.ics');
+      downloadLink.setAttribute('download', 'Farooq-Shaheer-Aysha-Haniya-Nikah.ics');
       document.body.appendChild(downloadLink);
       downloadLink.click();
       document.body.removeChild(downloadLink);
